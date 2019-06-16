@@ -1,0 +1,7 @@
+DROP TABLE fondos IF EXISTS;
+
+CREATE TABLE fondos  (
+    fondo_id BIGINT IDENTITY NOT NULL PRIMARY KEY,
+    nombre VARCHAR(20),
+    valor NUMERIC
+);

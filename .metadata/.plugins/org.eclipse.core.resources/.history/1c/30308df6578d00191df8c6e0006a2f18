@@ -1,0 +1,34 @@
+package com.enrpan.springbatchtest;
+
+public class FondoData {
+
+	private String name;
+	private Long value;
+
+	public FondoData(String name, Long value) {
+		this.name = name;
+		this.value = value;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Long getValue() {
+		return value;
+	}
+
+	public void setValue(Long value) {
+		this.value = value;
+	}
+
+	@Override
+	public String toString() {
+		return "FondoData [name=" + name + ", value=" + value + "]";
+	}
+
+}

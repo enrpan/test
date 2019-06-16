@@ -1,0 +1,7 @@
+DROP TABLE people IF EXISTS;
+
+CREATE TABLE fondos  (
+    fondo_id BIGINT IDENTITY NOT NULL PRIMARY KEY,
+    name VARCHAR(20),
+    valor DOUBLE(15,6)
+);

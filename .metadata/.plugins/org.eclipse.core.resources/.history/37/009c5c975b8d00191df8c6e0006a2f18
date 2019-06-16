@@ -1,0 +1,5 @@
+package com.enrpan.springbatchtest.batch;
+
+public class JobCompletionNotificationListener {
+
+}
